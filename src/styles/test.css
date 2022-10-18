@@ -1,3 +1,23 @@
-.mainHead{
-    color: blue;
+.item{
+    min-width: 30rem;
+    min-height: 40rem;
+    padding: 40px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+    -webkit-filter: drop-shadow(5px 5px 15px rgb(46, 43, 43));
+    filter: drop-shadow(5px 5px 15px rgb(40, 38, 38));
+}
+
+.inner-carousel{
+    display: flex;
+}
+
+.carousel{
+    cursor: grab;
+    overflow: hidden;
 }
