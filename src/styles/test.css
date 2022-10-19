@@ -9,8 +9,8 @@
     height: 100%;
     border-radius: 2rem;
     pointer-events: none;
-    -webkit-filter: drop-shadow(5px 5px 15px rgb(46, 43, 43));
-    filter: drop-shadow(5px 5px 15px rgb(40, 38, 38));
+    -webkit-filter: drop-shadow(10px 10px 15px rgb(46, 43, 43));
+    filter: drop-shadow(10px 10px 15px rgb(40, 38, 38));
 }
 
 .inner-carousel{

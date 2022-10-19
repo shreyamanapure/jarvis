@@ -15,7 +15,8 @@ const Carousel = () => {
     return(
         <>
             <motion.div ref={carousel} whileTap={{cursor:"grabbing"}} className="carousel">
-                <motion.div drag="x"  dragConstraints={{right:0, left:-width}} className="inner-carousel">
+                <motion.div drag="x"  dragConstraints={{right:0, left:-width}} 
+                className="inner-carousel">
                 {images.map(image => {
                     return(
                         <motion.div className="item" key={image}>
