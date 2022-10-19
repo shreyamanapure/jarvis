@@ -10,7 +10,7 @@ const Carousel = () => {
 
     useEffect(() => {
         setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-    }, [])
+    }, []);
 
     return(
         <>
@@ -23,12 +23,12 @@ const Carousel = () => {
                             <img src={image} alt=""/>
                         </motion.div>
                     );
-                })}
+                })};
                 </motion.div>
             </motion.div>
         </>
-    )
-}
+    );
+};
 
 export default Carousel;
 
